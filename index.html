@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stephen Gift Dada - Tech Goals</title>
+
+    <!-- Favicon -->
+  <link rel="icon" href="/images/profile-100x100.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">StephenG</div>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#tasks">Goals</a></li>
+          <li><a href="#important-links">Links</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <!-- Contact Information Section -->
+        <section id="contact">
+          <div class="contact-info">
+            <div>
+              <p>
+                Slack Display Name:<br />
+                <span data-testid="slackDisplayName">StephenG</span>
+              </p>
+              <p>
+                Current Time in UTC:<br />
+                <span id="currentTimeUTC" data-testid="currentTimeUTC"
+                  >--:--:-- UTC</span
+                >
+              </p>
+            </div>
+            <div>
+              <p>
+                Current Day of the Week:<br />
+                <span id="currentDay" data-testid="currentDay">Day</span>
+              </p>
+              <p>
+                Slack Email:<br />
+                <span data-testid="slackEmail">stephengift43@gmail.com</span>
+              </p>
+            </div>
+          </div>
+        </section>
+        <a href="#tasks" class="cta-button">View Goals</a>
+      </div>
+
+      <div class="hero-image">
+        <!-- Placeholder images for mobile and desktop -->
+        <img
+          src="/images/profile-100x100.jpg"
+          alt="Slack Profile Picture Mobile"
+          class="mobile-image"
+          data-testid="slackProfilePicture"
+        />
+        <img
+          src="/images/profile-512x512.jpg"
+          alt="Slack Profile Picture Desktop"
+          class="desktop-image"
+          data-testid="slackProfilePicture"
+        />
+      </div>
+    </section>
+
+    <section id="tasks" class="roadmap-container">
+      <h1 class="roadmap-heading">Career Goals</h1>
+      <section class="roadmap">
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>1. Advanced Frontend Development</h2>
+            <p>
+              Objective: Enhance my skills in advanced frontend technologies and
+              frameworks.
+            </p>
+            <ul>
+              <li>Master advanced features of React.js and Next.js.</li>
+              <li>
+                Gain expertise in emerging frontend frameworks such as Svelte
+                and Solid.js.
+              </li>
+              <li>
+                Contribute to open-source projects to build a portfolio of
+                advanced frontend work.
+              </li>
+              <li>
+                Participate in frontend development conferences and workshops.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>2. Backend Development Proficiency</h2>
+            <p>
+              Objective: Become proficient in backend development to become a
+              full-stack developer.
+            </p>
+            <ul>
+              <li>Deepen my knowledge of Java for backend development.</li>
+              <li>
+                Learn and master Node.js and Express.js for additional backend
+                capabilities.
+              </li>
+              <li>
+                Gain experience with database management systems such as
+                MongoDB, MySQL, and PostgreSQL.
+              </li>
+              <li>
+                Build and deploy full-stack applications to integrate frontend
+                and backend skills.
+              </li>
+              <li>
+                Explore serverless architecture and cloud services like AWS,
+                Google Cloud, and Azure.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>3. Mobile App Development</h2>
+            <p>
+              Objective: Develop robust and user-friendly mobile applications.
+            </p>
+            <ul>
+              <li>
+                Deepen my knowledge of React Native for cross-platform mobile
+                development.
+              </li>
+              <li>
+                Learn Swift and Kotlin for native iOS and Android development,
+                respectively.
+              </li>
+              <li>
+                Create and publish at least two mobile applications on the App
+                Store and Google Play.
+              </li>
+              <li>
+                Stay updated with the latest trends and updates in mobile app
+                development.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>4. DevOps and CI/CD Integration</h2>
+            <p>
+              Objective: Implement DevOps practices and Continuous
+              Integration/Continuous Deployment (CI/CD) pipelines.
+            </p>
+            <ul>
+              <li>
+                Learn DevOps tools such as Docker, Kubernetes, Jenkins, and
+                GitLab CI/CD.
+              </li>
+              <li>
+                Implement CI/CD pipelines for personal and professional
+                projects.
+              </li>
+              <li>
+                Automate deployment processes and enhance the development
+                workflow.
+              </li>
+              <li>
+                Attend DevOps bootcamps and online courses to stay current with
+                best practices.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>5. Cybersecurity Awareness</h2>
+            <p>
+              Objective: Integrate robust security practices into all stages of
+              development.
+            </p>
+            <ul>
+              <li>
+                Study cybersecurity principles and common vulnerabilities.
+              </li>
+              <li>
+                Implement security measures such as OWASP best practices in web
+                and mobile applications.
+              </li>
+              <li>
+                Conduct regular security audits and penetration testing for
+                projects.
+              </li>
+              <li>
+                Obtain certifications such as Certified Ethical Hacker (CEH) or
+                CompTIA Security+.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>6. Community Engagement and Mentorship</h2>
+            <p>
+              Objective: Give back to the tech community through mentorship and
+              knowledge sharing.
+            </p>
+            <ul>
+              <li>
+                Mentor junior developers and participate in coding bootcamps as
+                a volunteer instructor.
+              </li>
+              <li>
+                Write technical articles and create tutorials to share knowledge
+                with the community.
+              </li>
+              <li>Present at local meetups and international conferences.</li>
+              <li>
+                Collaborate with other developers on community projects and
+                hackathons.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>7. Consultancy Services</h2>
+            <p>
+              Objective: Establish myself as a consultant for companies,
+              providing expert advice and solutions.
+            </p>
+            <ul>
+              <li>
+                Develop a portfolio showcasing successful projects and case
+                studies.
+              </li>
+              <li>
+                Network with industry professionals and attend business and tech
+                conferences.
+              </li>
+              <li>
+                Gain certifications in relevant technologies and methodologies.
+              </li>
+              <li>
+                Offer consultancy services on platforms like LinkedIn and
+                Upwork.
+              </li>
+              <li>
+                Build a personal brand as a thought leader in the tech industry
+                through blogging and speaking engagements.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>8. Continuous Learning and Professional Development</h2>
+            <p>
+              Objective: Stay updated with the latest trends and technologies in
+              the tech industry.
+            </p>
+            <ul>
+              <li>
+                Enroll in advanced courses and obtain certifications in relevant
+                technologies.
+              </li>
+              <li>Read technical books and research papers regularly.</li>
+              <li>
+                Follow industry leaders and thought influencers on social media
+                and tech blogs.
+              </li>
+              <li>
+                Experiment with new technologies and tools through side projects
+                and proof-of-concept applications.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-step">
+            <h2>9. Personal Brand and Online Presence</h2>
+            <p>
+              Objective: Strengthen my personal brand and online presence as a
+              tech professional.
+            </p>
+            <ul>
+              <li>
+                Regularly update my personal website and portfolio with recent
+                projects and achievements.
+              </li>
+              <li>
+                Actively engage with the tech community on platforms like
+                GitHub, LinkedIn, and Twitter.
+              </li>
+              <li>
+                Build a strong personal blog to share insights, tutorials, and
+                experiences.
+              </li>
+              <li>
+                Network with other professionals and participate in relevant
+                online communities.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="important-links" class="card">
+      <div class="card-body">
+        <h2>Important Links</h2>
+        <ul>
+          <li>
+            <span>HNG Learn:</span>
+            <a
+              href="https://hng.tech/learn"
+              target="_blank"
+              data-testid="hngLink"
+              >https://hng.tech/learn</a
+            >
+          </li>
+          <li>
+            <span>Keyword Dog:</span>
+            <a
+              href="https://keyword.dog"
+              target="_blank"
+              data-testid="keywordLink"
+              >https://keyword.dog</a
+            >
+          </li>
+          <li>
+            <span>Scrape Any Web:</span>
+            <a
+              href="https://scrapeanyweb.site"
+              target="_blank"
+              data-testid="scrapeanywebLink"
+              >https://scrapeanyweb.site</a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About Me</h3>
+          <p>Insert a brief description about yourself here.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="#tasks">Goals</a></li>
+            <li><a href="#important-links">Links</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="currentYear"></span> Stephen Gift Dada. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
