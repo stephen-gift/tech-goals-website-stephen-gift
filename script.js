@@ -17,8 +17,7 @@ function updateCurrentTime() {
     second: "numeric",
   };
   const formattedTime = now.toLocaleTimeString("en-US", options);
-  document.getElementById("currentTimeUTC").textContent =
-    formattedTime + " UTC";
+  document.getElementById("currentTimeUTC").textContent = formattedTime + " UTC";
 }
 
 // Function to update current day of the week
